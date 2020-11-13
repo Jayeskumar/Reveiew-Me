@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtSpace1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/txtPickedAuthor"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="@string/pickanauthor" />
+
+        <TextView
+            android:id="@+id/txtSpace2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="" />
+
+        <Spinner
+            android:id="@+id/sprAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"/>
+
+        <TextView
+            android:id="@+id/txtSpace3"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/imgAuthor"
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:src="@drawable/questionmark" />
+
+        <TextView
+            android:id="@+id/txtSpace4"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/txtPickedAuthorBook"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="@string/whoistheauthor" />
+
+        <TextView
+            android:id="@+id/txtSpace5"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/txtPickedAuthorQuote"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txtSpace6"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnReadReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Read Review"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtReview"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/noreview" />
+
+        <Button
+            android:id="@+id/btnSubmitReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Submit Review"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnNoReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Nah..."
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+
+
+        <EditText
+            android:id="@+id/edtReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/reviewhint"/>
+
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Submit"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Cancel"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Reveiw Me</string>
+
+    <string-array name="authors">
+        <item>Pick a Writer</item>
+        <item>Oscar Wilde</item>
+        <item>CS Lewis</item>
+        <item>Bram Stoker</item>
+        <item>Jonathan Swift</item>
+        <item>Samuel Beckett</item>
+    </string-array>
+
+    <string name="pickanauthor">Pick me a writer so I have something to read!!!</string>
+    <string name="whoistheauthor">Who are you going to pick??</string>
+
+    <string name="wildebook">The Picture of Dorian Gray (1890)</string>
+    <string name="lewisbook">The Lion, the Witch and the Wardrobe (1950)</string>
+    <string name="stokerbook">Dracula (1897)</string>
+    <string name="swiftbook">Gullivers Travels (1726)</string>
+    <string name="beckettbook">Waiting for Godot (1953)</string>
+
+    <string name="reviewhint">Write Book Review</string>
+    <string name="noreview">No review yet!! Write one!!</string>
+
+</resources>
