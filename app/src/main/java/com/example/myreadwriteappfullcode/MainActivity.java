@@ -1,19 +1,4 @@
-package com.example.myreadwriteappfullcode;
 
-//Projects in Series 2:
-//1. Build an App in Android Studio using Resources
-//2. Build an App in Android Studio using Static Files
-//3. Build an App in Android Studio using Read - Write
-//4. Build an App in Android Studio using onTouch
-//5. Build an App in Android Studio using Activities
-
-//***THIS FILE WILL SHOW ERRORS UNTIL YOU HAVE COMPLETED THE TASKS YOU ARE REQUIRED TO DO.  WHEN YOU HAVE
-//SUCCESSFULLY FINISHED THE TASK THE ERRORS SHOULD ALL BE GONE.***
-
-//androidx.appcompat.app.AppCompatActivity and android.os.Bundle are put in by default when basic
-//activity selected when new project is created in Android Studio. All of the other imports where
-//put in manually later during the making of the project.
-//START
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
